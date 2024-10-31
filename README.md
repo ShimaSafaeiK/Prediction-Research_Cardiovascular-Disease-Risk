@@ -38,18 +38,34 @@ Machine learning project predicting cardiovascular disease risk using genetic an
    #- Feature importance plots were created to understand which features most influenced the RandomForest and XGBoost models.
 
 ### Project Steps in Bullet Points
+
 #1. **Import Libraries**: Loaded necessary Python libraries for data handling, model training, visualization, and evaluation.
+
 #2. **Load and Preview Dataset**: Loaded the UCI heart disease dataset and conducted an initial exploration.
+
 #3. **Visualize Missing Data**: Created a heatmap to visualize missing values in the dataset.
+
 #4. **One-Hot Encoding**: Encoded categorical features using one-hot encoding to convert them into numerical data for modeling.
+
 #5. **Feature Selection**: Selected features for the model based on relevance while excluding unnecessary columns like 'id'.
+
 #6. **Normalization**: Applied normalization to continuous features to bring them to the same scale.
+
 #7. **Handle Missing Values**: Dropped columns with the most missing values and filled other missing values with the median.
+
 #8. **Reload Data and Redefine Target**: Reloaded and reprocessed the dataset for consistency, ensuring target and features were correctly defined.
+
 #9. **Split Data**: Divided the data into training and test sets to evaluate model performance effectively.
+
 #10. **Build Neural Network**: Created an improved neural network with dropout and batch normalization to prevent overfitting.
+
 #11. **Train Neural Network**: Trained the model with callbacks for early stopping and learning rate reduction.
+
 #12. **Model Evaluation**: Evaluated the model using accuracy, F1 score, precision, recall, ROC-AUC, and confusion matrix.
+
 #13. **RandomForest and XGBoost Models**: Trained two additional models (RandomForest and XGBoost) to compare their performance with the neural network.
+
 #14. **Compare All Models**: Compared accuracy and F1 scores for all three models.
+
 #15. **Feature Importance Visualization**: Visualized feature importance for RandomForest and XGBoost.
+
